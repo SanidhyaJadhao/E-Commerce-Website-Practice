@@ -1,0 +1,151 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="source_codes/css_files/sign_in.css">
+    <link rel="stylesheet" href="assets/Font Kits/Fonts_stylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="left">
+            <img src="assets/logo_black.png" alt="" id="logo-black">
+            <h1 class="h1" id="h1"></h1>
+            <h1-para id="h1-para">Let's get you signed in!</h1-para>
+            <div class="form">
+              <div class="google" id="google">
+                      <img src="assets/google/google-logo-png.png" alt="" class="google-logo">
+                      <p class="google-para">Sign In with <span>Google</span></p>
+              </div>
+              <div class="input-field-div">
+                <div class="input-box" id="input-box1">
+                   <input type="text" class="input-field" id="input1">
+                   <label class="input-label">Username</label>
+                   <ion-icon class="label-img ion-icon-blue-dark" name="person"></ion-icon> 
+                </div>
+                <div class="input-box" id="input-box2">
+                   <input type="email" class="input-field" id="input2">
+                   <label class="input-label">Email</label>
+                   <ion-icon class="label-img ion-icon-blue-dark" name="mail"></ion-icon>
+                </div>
+                <div class="input-box" id="input-box3">
+                   <input type="password" class="input-field" id="input3">
+                   <label class="input-label">Password</label>
+                   <ion-icon class="label-img ion-icon-blue-dark" name="lock-closed"></ion-icon>
+                </div>
+                </div>
+                <button class="signin-btn" id="submitButton">Sign In</button>
+            </div>
+            <p class="account">Already have an Account?  <span>Log In!</span></p>
+        </div>
+        <div class="right">
+            <img src="assets/logo_white.png" alt="" id="logo-white">
+            <ion-icon name="arrow-forward-outline" id="next" class="next"></ion-icon> <ion-icon name="arrow-back-outline" class="back" id="back"></ion-icon>
+            <div class="swiper"><div class="black-op-div"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img src="assets/slider_right_images/img4.jpg" alt="" class="slide-img">
+                    <p class="img-title">Execative Producres</p>
+                    <p class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore est asperiores nihil voluptatum aliquid sint consequuntur saepe, omnis reiciendis perspiciatis enim aliquam!</p>
+                    <p class="name">Whellier Smith</p>
+                    <p class="occupation">CEO, Cara pvt ltd.</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/slider_right_images/img1.jpg" alt="" class="slide-img">
+                    <p class="img-title">Creative Team!</p>
+                    <p class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore est asperiores nihil voluptatum aliquid sint consequuntur saepe, omnis reiciendis perspiciatis enim aliquam!</p>
+                    <p class="name">The Team</p>
+                    <p class="occupation">Developer Team, Cara pvt ltd.</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    </div>
+                  <div class="swiper-slide">
+                    <img src="assets/slider_right_images/img2.jpg" alt="" class="slide-img">
+                    <p class="img-title">Day - Night Servers!</p>
+                    <p class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore est asperiores nihil voluptatum aliquid sint consequuntur saepe, omnis reiciendis perspiciatis enim aliquam!</p>
+                    <p class="name">Server Maintenance</p>
+                    <p class="occupation">Servers, Cara pvt ltd.</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/slider_right_images/img3.jpg" alt="" class="slide-img">
+                    <p class="img-title">Safe Deliveries!</p>
+                    <p class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore est asperiores nihil voluptatum aliquid sint consequuntur saepe, omnis reiciendis perspiciatis enim aliquam!</p>
+                    <p class="name">Delivery Workers</p>
+                    <p class="occupation">Deliveries, Cara pvt ltd.</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    </div>
+                </div>
+            </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>    
+        </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/TextPlugin.min.js" integrity="sha512-6mqKySLIMRDqKceAm/h7osEeNmPP9Sgx0/FRKqfkw1hRAZ41UwXZMegFZcpg8LY4/DWrF+H1nN6CVekAew1rpA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  autoplay: {
+        delay: 3000, // Delay between slide transitions in milliseconds
+        disableOnInteraction: false, // Allow autoplay to continue even when user interacts with the slides
+      },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.next',
+    prevEl: '.back',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="source_codes/js_files/sign_in.js"></script>
+</body>
+</html>

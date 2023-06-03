@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Belgan Aesthetic';
+    src: url('Belgan Aesthetic/BelganAesthetic-Regular.woff2') format('woff2'),
+        url('Belgan Aesthetic/BelganAesthetic-Regular.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'stone orgonite';
+    src: url('Stone Orgonite/stoneorgonite-Regular.woff2') format('woff2'),
+        url('Stone Orgonite/stoneorgonite-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Voyage';
+    src: url('Voyage font/VoyageRegular.woff2') format('woff2'),
+        url('Voyage font/VoyageRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Code Next-Trial SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Code Next-Trial SemiBold'), url('Code Next/CodeNext-Trial-SemiBold.woff') format('woff');
+    }

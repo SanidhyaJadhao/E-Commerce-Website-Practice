@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Belgan Aesthetic';
+    src: url('BelganAesthetic-Regular.woff2') format('woff2'),
+        url('BelganAesthetic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

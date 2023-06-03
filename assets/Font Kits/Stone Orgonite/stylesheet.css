@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'stone orgonite';
+    src: url('stoneorgonite-Regular.woff2') format('woff2'),
+        url('stoneorgonite-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

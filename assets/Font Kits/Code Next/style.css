@@ -1,0 +1,6 @@
+    @font-face {
+    font-family: 'Code Next-Trial SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Code Next-Trial SemiBold'), url('CodeNext-Trial-SemiBold.woff') format('woff');
+    }
