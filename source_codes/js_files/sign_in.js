@@ -19,6 +19,7 @@ inputs.forEach((input) => {
     }
   });
 });
+
 function verifyEmail(email) {
     // Regular expression pattern for email validation
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -60,7 +61,7 @@ function verifyEmail(email) {
       localStorage.setItem("pass", pass);
   
       // Redirect or perform any other actions after setting local storage
-      location.href = "https://www.youtube.com";
+      location.href = "#";
     }
   });
   
