@@ -20,14 +20,6 @@ inputs.forEach((input) => {
   });
 });
 
-function verifyEmail(email) {
-    // Regular expression pattern for email validation
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    
-    // Test the email against the pattern
-    return emailPattern.test(email);
-  }
-
   const input1 = document.querySelector('#input1');
   const input2 = document.querySelector('#input2');
   const input3 = document.querySelector('#input3');
@@ -61,12 +53,9 @@ function verifyEmail(email) {
       localStorage.setItem("pass", pass);
   
       // Redirect or perform any other actions after setting local storage
-      location.href = "#";
+      location.href = "home.html";
     }
   });
-  
-  
-  
 
 const logo1 = document.getElementById('logo-black');
 const logo2 = document.getElementById('logo-white');
